@@ -1,0 +1,13 @@
+name: My first workflow
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Welcone ms
+              run: echo "My first firhub actions job"
+            - name: List files
+              run: ls
+            - name: "hellow world"
+              run: ./hello-world.sh

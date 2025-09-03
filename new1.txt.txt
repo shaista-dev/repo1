@@ -1,1 +1,0 @@
-First text document for testing git operations
