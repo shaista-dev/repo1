@@ -1,0 +1,14 @@
+name: My first workflow
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Welcone ms
+              run: |
+                echo "My second github actions job"
+                echo "List files"
+                ls -ltra
+                cat README.md

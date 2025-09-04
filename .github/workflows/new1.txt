@@ -1,1 +1,10 @@
-First text document for testing git operations
+name: My first workflow
+on: push
+
+jobs:
+    first_job:
+        runs-on:ubuntu-laest
+        steps:
+            - name: Welcone ms
+              run: echo "My first firhub actions job"
+            -name
